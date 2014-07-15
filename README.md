@@ -1,4 +1,13 @@
-go_server
+go_push_server
 =========
 
-go demo ，两周现学现卖的东西，仅供新手学习。
+go push demo 
+  特性：1)  自动负载均衡
+        2)  消息可离线
+        3)  自定义不同产品线
+        
+server端：
+  go build push/push.go
+  
+client端：
+  go build client/client.go
